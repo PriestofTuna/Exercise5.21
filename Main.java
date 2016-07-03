@@ -36,7 +36,7 @@ public class Main extends Application {
         DecimalFormat df = new DecimalFormat("#.00");
         df.setRoundingMode(RoundingMode.CEILING);
         DecimalFormat percent = new DecimalFormat("#.000");
-//        percent.setRoundingMode(RoundingMode.DOWN);
+
         loancalc.setOnAction(e -> {
             year = Integer.parseInt(inputYear.getText());
             loan = Double.parseDouble(inputAmount.getText());
